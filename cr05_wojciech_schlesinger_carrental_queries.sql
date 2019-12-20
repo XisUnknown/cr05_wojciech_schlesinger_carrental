@@ -7,7 +7,7 @@ SELECT * FROM `additionalcharges` WHERE Amount BETWEEN 30 AND 200;
 All additional charges with an amount bigger than 50
 SELECT * FROM `additionalcharges` WHERE Amount > 50;
 All invoices that are between 30 and 200
-SELECT * FROM invoice WHERE Amount BETWEEN 30 AND 
+SELECT * FROM invoice WHERE Amount BETWEEN 30 AND 200;
 All rentalcars with a location Wien
 SELECT * FROM `rentalcar` WHERE StartLocation LIKE 'Wien';
 All rentalcompany where companyID is bigger than 2
